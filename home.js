@@ -49,7 +49,7 @@ console.log('hello pavi');
 
     // This is create
         function fun(){
-          alert("hey frontend developer")
+          console.log("hey frontend developer")
         }
     // This is call
     fun();
@@ -63,13 +63,38 @@ console.log('hello pavi');
     Result : hellopavi
     */
 
-    function greeting(){
-      var name = prompt("What is your name");
-      var Result = 'hello' + '' + name;  // String Concatination
-      console.log(Result);
-    }
+    // function greeting(){
+    //   var name = prompt("What is your name");
+    //   var Result = 'hello' + '' + name;  // String Concatination
+    //   console.log(Result);
+    // }
 
-    greeting();
+    // greeting();
 
 
+ 
+
+  // How do aruguments work in functions?
+  //How do we add  2 numbers together in function?
   
+  function sumNumber (a,b) {
+    var result = a + b;
+    console.log(result);
+
+  }
+  sumNumber(7,7); 
+
+  // While loop
+
+//   var num = 0
+
+//   while  (num < 10){
+//     num += 1;
+//  console.log(num);
+//   }
+
+// For Loop
+
+for (let num = 0; num < 10; num++) {
+  console.log(num)
+}
