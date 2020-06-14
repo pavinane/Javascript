@@ -95,6 +95,37 @@ console.log('hello pavi');
 
 // For Loop
 
-for (let num = 0; num < 10; num++) {
+for (let num = 0; num <= 10; num++) {
   console.log(num)
 }
+
+//Data Type
+
+/*
+let Yourage = 18;  // number
+let  yourname = "pavi"; //string
+let name = {fistname="pavi", lastname="nane"}; //object
+let truth = false; // boolean
+let groceries = ["apple", "banana","orange"]; //array
+let random; // undefined
+let nothing = null;  //value null
+
+*/
+
+// String in Javascript (common method)
+
+let fruit = 'banana';
+let moreFruit = 'apple\nbanana';   //{\n} - start a new line
+console.log(moreFruit);
+console.log(fruit.length);
+console.log(fruit.indexOf('nan')); 
+console.log(fruit.slice(2,6)); // giving a num/word  start to end letters or number in number  show the result
+console.log (fruit.replace('ban',"123"));  // it is replace that word to place some word or letter
+console.log(fruit.toLocaleUpperCase());
+console.log(fruit.toLocaleLowerCase());
+// this two are same ,this is  show the place 
+console.log(fruit.charAt(2));
+console.log(fruit[2]);
+
+console.log(fruit.split(',')); // this is split my comma in word
+console.log(fruit.split(''));  // this is split by character
