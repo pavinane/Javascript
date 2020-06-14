@@ -38,6 +38,38 @@ console.log('hello pavi');
 
   // Increment ,Decrement by any Number
   var num4 =15;
-  num4 += 15;
+  num4 += 20;
     console.log(num4);
+  
+    // Function
+    /*
+    1. Create a function
+    2. Call the function
+    */
+
+    // This is create
+        function fun(){
+          alert("hey frontend developer")
+        }
+    // This is call
+    fun();
+
+    /*
+    Let's create a function that take in a name and say hello follwe
+    by your name 
+
+    for example 
+    Name:pavi
+    Result : hellopavi
+    */
+
+    function greeting(){
+      var name = prompt("What is your name");
+      var Result = 'hello' + '' + name;  // String Concatination
+      console.log(Result);
+    }
+
+    greeting();
+
+
   
