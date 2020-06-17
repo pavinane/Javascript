@@ -127,5 +127,25 @@ console.log(fruit.toLocaleLowerCase());
 console.log(fruit.charAt(2));
 console.log(fruit[2]);
 
-console.log(fruit.split(',')); // this is split my comma in word
+console.log(fruit.split(',')); // this is split by comma in word
 console.log(fruit.split(''));  // this is split by character
+
+// Array
+
+let fruits = ['apple','banana','orange','pineapple'];
+fruits = new Array ('apple','banana','orange','pineapple');
+
+console.log(fruits[2]);  // Access value at indesx 2nd
+
+fruits[0] = 'pear' // replace the name 
+console.log(fruits) 
+
+for (let i=2; i < fruits.length; i++){  // this is giving number to 'i'   
+  console.log(fruits[i])
+}
+// Array common methods
+
+console.log('to string', fruits.toString());
+console.log(fruits.join('+'));
+console.log(fruits.pop(),fruits); // pop-eliminate the list in last word , 
+console.log(fruits.push('blueberries'),fruits); // push - add a word in list
