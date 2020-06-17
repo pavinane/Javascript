@@ -169,3 +169,24 @@ for (let num = 0; num < 10; num++){
   emptyArray.push(num);
 }
 console.log(emptyArray);
+
+// Object in Javascript
+
+let student = {first:"pavi",
+ last:"nane",
+ age:"24",
+
+ studentInfo : function () {
+   return(
+     this.first + '\n' + this.last + '\n' + this.age
+   )
+ }
+};
+
+// console.log(student.first);
+// console.log(student.last);
+// student.first = "notpavi";
+// console.log(student.first);
+// student.age++;
+// console.log(student.age);
+console.log(student.studentInfo());
