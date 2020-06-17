@@ -149,3 +149,23 @@ console.log('to string', fruits.toString());
 console.log(fruits.join('+'));
 console.log(fruits.pop(),fruits); // pop-eliminate the list in last word , 
 console.log(fruits.push('blueberries'),fruits); // push - add a word in list
+fruits.shift();  // shift - remove first element from an array
+console.log(fruits); 
+fruits.unshift('kiwi'); // add first element to an array
+console.log(fruits);
+
+let vegetables = ['onion','tomato','garlic','beans']
+let allGroceries = fruits.concat(vegetables); // combine arrays
+console.log(allGroceries);
+console.log(allGroceries.reverse());
+console.log(allGroceries.sort());
+
+let someNumbers = [1,5,2,10,6,25,335,115,8];
+console.log(someNumbers.sort(function(a,b){return a-b})); // sorted in ascending order
+console.log(someNumbers.sort(function(a,b){return b-a})); // sorted in descending  order
+
+let emptyArray = new Array ();
+for (let num = 0; num < 10; num++){
+  emptyArray.push(num);
+}
+console.log(emptyArray);
